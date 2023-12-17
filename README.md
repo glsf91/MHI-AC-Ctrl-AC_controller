@@ -3,7 +3,7 @@ AC controller which works on a MHI-AC-Ctrl module. It is using the MQTT messages
 
 It is based on a Wireless Tag WT32-SC01 Plus display module with an integrated ESP32.
 Layout is designed with Squareline Studio. Export to the UI directory and copy files to the src directory.
-I used Visual Studio Code with platformIO to compile. 
+I used Visual Studio Code with platformIO to compile. You have to copy some stuff from the header files of mhi-ac-ctr. See top of ino file.
 
 I used a 3D printed case from https://www.printables.com/model/381026-wt32-sc01-plus-desk-case
 
